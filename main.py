@@ -1,4 +1,4 @@
-#AWS DynamoDB RCUs Calculation (for both Reads & Writes)
+#AWS DynamoDB Capacity Units' Calculation (for both Reads & Writes)
 
 import math
 
