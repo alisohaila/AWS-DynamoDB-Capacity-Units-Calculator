@@ -43,13 +43,13 @@ print(f"WCU: {wcu}")
 
 #Calculating WCUs: Transactional writes
 
-tw = int(input("Enter the transactional write: "))
+tr = int(input("Enter the transactional write: "))
 size_per_item = float(input("Enter the size of item/data: "))
 
 if size_per_item == float(size_per_item):
     size_per_item = math.ceil(size_per_item)
 
-wcu = tw * size_per_item * 2
+wcu = tr * size_per_item * 2
 
 print(f"WCU: {wcu}")
 
