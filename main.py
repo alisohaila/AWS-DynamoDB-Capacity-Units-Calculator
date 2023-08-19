@@ -31,13 +31,13 @@ print(f"RCU: {rcu}")
 
 #Calculating WCUs: Standard writes
 
-sr = int(input("Enter the standard write: "))
+sw = int(input("Enter the standard write: "))
 size_per_item = float(input("Enter the size of item/data: "))
 
 if size_per_item == float(size_per_item):
     size_per_item = math.ceil(size_per_item)
 
-wcu = sr * size_per_item
+wcu = sw * size_per_item
 
 print(f"WCU: {wcu}")
 
